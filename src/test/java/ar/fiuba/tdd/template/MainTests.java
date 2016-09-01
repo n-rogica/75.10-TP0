@@ -68,7 +68,7 @@ public class MainTests {
         Queue<Integer> testQueue = new Queue<Integer>();
         testQueue.add(45);
         assertEquals(testQueue.size(),1);
-        testQueue.add(78);
+        testQueue.add(77);
         assertEquals(testQueue.size(),2);
         testQueue.remove();
         assertEquals(testQueue.size(),1);
