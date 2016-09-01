@@ -8,5 +8,5 @@ abstract class Node<T> {
 
     abstract T getElement();
 
-    abstract Node nextNode();
+    abstract Node<T> nextNode();
 }
