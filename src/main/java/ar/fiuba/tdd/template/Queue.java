@@ -28,7 +28,7 @@ public class Queue<T> {
     }
 
     public void remove() {
-        this.first = this.first.nextNode();
+        this.first =  this.first.nextNode();
         this.nodeCount--;
     }
 }
