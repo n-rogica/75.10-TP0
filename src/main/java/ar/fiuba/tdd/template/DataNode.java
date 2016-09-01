@@ -1,11 +1,11 @@
 package ar.fiuba.tdd.template;
 
-class DataNode<T> extends Node<T> {
+public class DataNode<T> extends Node<T> {
 
     private T item;
     private Node<T> next;
 
-    DataNode(T item) {
+    public DataNode(T item) {
         this.item = item;
         this.next = new DummyNode<T>();
     }

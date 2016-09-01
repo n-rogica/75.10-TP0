@@ -1,6 +1,6 @@
 package ar.fiuba.tdd.template;
 
-class DummyNode<T> extends Node<T> {
+public class DummyNode<T> extends Node<T> {
 
     public boolean emptyNode() {
         return true;
